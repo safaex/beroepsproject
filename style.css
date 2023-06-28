@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav {
+    background-color: #666;
+    padding: 10px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li {
+    margin: 0 10px;
+  }
+
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+  }
+
+  nav ul li a:hover {
+    background-color: #999;
+  }
+
+
+body{
+    font-family: Roboto, sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    line-height:1.5;
+    color: black;
+
+}
+
+
+body main{
+    display: flex;
+    flex-wrap: initial;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 80%;
+    text-align: center;
+}
+
+
+
+input{
+    border-radius:20px;
+}
+
+textarea{
+    border-style: solid;
+    border-color: red;
+}
+
+input:focus {
+    background-color: green;
+    border-style: solid;
+    border-color: red;
+   
+  }
+
+  input[type=text] {
+    width: 100px;
+    transition: ease-in-out, width .35s ease-in-out;
+  }
+
+  h1 {
+    color: rgb(14, 114, 14);
+    font-size: 1.2rem;
+    font-weight: 300;
+    display: flex;
+   justify-content: center;
+  }
+
+  p{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+  }
+
+  h2 {
+    color: green;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+
+
+form {
+    display: flex;
+    flex-wrap:wrap ;
+    max-width: 300px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding-top: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 65%;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+
+  input[type="submit"] {
+    background-color: #333;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+
+
+  footer {
+    background-color: grey;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .gegevens,
+  .tijden {
+    flex: 1;
+  }
+  
+  .gegevens h3,
+  .tijden h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .gegevens p,
+  .tijden p {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+ 
